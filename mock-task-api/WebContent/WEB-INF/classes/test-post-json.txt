@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "type": "Task1Post",
+      "id": 1,
+      "attributes": {
+        "name": "name1",
+        "description": "description1"
+      }
+    },
+    {
+      "type": "Task2Post",
+      "id": 2,
+      "attributes": {
+        "name": "name2",
+        "description": "description2"
+      }
+    },
+    {
+      "type": "Task3Post",
+      "id": 3,
+      "attributes": {
+        "name": "name3",
+        "description": "description3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "type": "Task",
+      "id": 0,
+      "attributes": {
+        "name": "string",
+        "description": "string",
+        "start_date": "2015-11-11",
+        "end_date": "2015-11-11",
+        "status": "Open",
+        "reference_id": 0,
+        "assigned_to": {
+          "data": [
+            {
+              "type": "TaskAssignment",
+              "id": 0,
+              "attributes": {
+                "start_date": "2015-11-11",
+                "end_date": "2015-11-11",
+                "status": "Open",
+                "last_update": "2015-11-11"
+              },
+              "relationships": {
+                "assigned_by": {
+                  "data": {
+                    "type": "User",
+                    "id": 0
+                  }
+                },
+                "assigned_to": {
+                  "data": {
+                    "type": "User",
+                    "id": 0
+                  }
+                },
+                "task": {
+                  "data": {
+                    "type": "Task",
+                    "id": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "relationships": {
+        "created_by": {
+          "data": {
+            "type": "User",
+            "id": 0
+          }
+        },
+        "project": {
+          "data": {
+            "type": "Project",
+            "id": 0
+          }
+        },
+        "campaign": {
+          "data": {
+            "type": "Campaign",
+            "id": 0
+          }
+        },
+        "parent_task": {
+          "data": {
+            "type": "Task",
+            "id": 0
+          }
+        },
+        "subtasks": {
+          "data": [
+            {
+              "type": "Task",
+              "id": 0
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

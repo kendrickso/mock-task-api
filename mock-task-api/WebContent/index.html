@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>mock-task-api</title>
+<script type="text/javascript">
+  function callTasksJsonPost() {
+	  document.getElementById("formTasksJsonPost").submit();
+  }
+  function callTasksXmlPost() {
+      document.getElementById("formTasksXmlPost").submit();
+  }
+</script>
+</head>
+<body>
+<form id="formTasksJsonPost" action="json/tasks" method="post"></form>
+<form id="formTasksXmlPost" action="xml/tasks" method="post"></form>
+<h1>Welcome to Mock Task API!</h1>
+<ul>
+<li><a href="json/tasks">Tasks JSON (GET)</a></li>
+<li><a href="#" onclick="callTasksJsonPost(); return false;">Tasks JSON (POST)</a></li>
+</ul>
+<ul>
+<li><a href="xml/tasks">Tasks XML (GET)</a></li>
+<li><a href="#" onclick="callTasksXmlPost(); return false;">Tasks XML (POST)</a></li>
+</ul>
+</body>
+</html>

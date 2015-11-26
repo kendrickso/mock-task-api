@@ -1,0 +1,26 @@
+<result>
+    <data>
+        <type>Task1Post</type>
+        <id>1</id>
+        <attributes>
+            <name>name1</name>
+            <description>description1</description>
+        </attributes>
+    </data>
+    <data>
+        <type>Task2Post</type>
+        <id>2</id>
+        <attributes>
+            <name>name2</name>
+            <description>description2</description>
+        </attributes>
+    </data>
+    <data>
+        <type>Task3Post</type>
+        <id>3</id>
+        <attributes>
+            <name>name3</name>
+            <description>description3</description>
+        </attributes>
+    </data>
+</result>
